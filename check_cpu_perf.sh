@@ -22,7 +22,7 @@
 # OK: CPU Idle = 84.10% | CpuUser=12.99; CpuNice=0.00; CpuSystem=2.90; CpuIowait=0.01; CpuSteal=0.00; CpuIdle=84.10:20:10
 #
 # Note: the option exists to NOT test for a threshold. Specifying 0 (zero) for both warning and critical will always return an exit code of 0.
-
+#TEST
 
 #Ensure warning and critical limits are passed as command-line arguments
 if [ -z "$1" -o -z "$2" ]
